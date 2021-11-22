@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	cout << “Would you like sugar ? ” << endl;
+	char input;
+	cin >> input;
+	<< endl;
+	switch (input) {
+	case 'Y':
+	case 'y':
+		cout << "Adding sugar..." << endl;
+		break;
+	case 'N':
+	case 'n':
+		cout << "No sugar requested..."
+			break;
+	default:
+		cou
+}
